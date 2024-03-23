@@ -7,7 +7,7 @@ const router = Router();
 router.post('/read', cargarArchivoExcel);
 router.post('/download-ftp', descargarArchivoFTP);
 router.post('/upload-ftp', subirArchivoRequestFTP);
-router.post('/test-ftp', conexionEstablecida);
+router.get('/test-ftp', conexionEstablecida);
 router.post('/upload-sap', cargarArchivoSAP);
 router.post('/up-down-sap', cargarLeerArchivoSAP);
 
