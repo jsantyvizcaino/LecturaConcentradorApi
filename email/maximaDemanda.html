@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página con Imagen</title>
+</head>
+
+<body>
+
+    <div class="text" style="padding: 0 2.5em; text-align: center;">
+        <div>Hola <strong>{{nombre}}</strong> </div>
+        El<strong>{{dia}}</strong> de <strong>{{mes}}</strong> de <strong>{{anio}}</strong> se registró tu demanda máxima del mes
+        <div class="rectangulo" style="">{{mes}}</div>
+        Esta demanda máxima se registró a las
+        <h4>{{hora}} : {{minuto}}</h4>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .rectangulo {
+        width: 200px;
+        /* Ancho del rectángulo */
+        height: 25px;
+        /* Alto del rectángulo */
+        background-color: #00c5e4;
+        /* Color de fondo azul */
+        color: white;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+    }
+</style>
